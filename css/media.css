@@ -1,0 +1,72 @@
+
+/* ---------------------
+Media Queries
+---------------------- */
+
+@media (min-width: 768px) {
+	
+	.first-row,
+	.second-row,
+	.profile {
+		display: -webkit-flex;
+		-webkit-flex-wrap: wrap;
+		justify-content: center;
+	}
+	
+	.main-nav a {
+		background-color: #f5f5f5;
+	}
+	
+	.main-nav li {
+		display: inline-block;
+	}
+	
+	.profile {
+		-webkit-flex-direction: row-reverse;
+	}
+	
+	.about-me {
+		padding: 0 2%;
+		max-width: 60%;
+	}
+	
+	.profile-picture {
+		max-width: 40%;
+		margin-bottom: 50px;
+	}
+	
+	.col {
+		height: 50%;
+		width: 50%;
+	}
+	
+	.back-to-top {
+		display: none;
+	}
+	
+	.footer-nav {
+		display: block;
+	}
+	
+	.footer-nav li {
+		display: inline-block;
+		text-align: right;
+		margin: 16px;
+		float: right;
+	}
+}
+
+@media (min-width: 1024px) {
+	
+	.main-header {
+		display: -webkit-flex;
+		-webkit-flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	
+	.col {
+		height: 30%;
+		width: 30%;
+	}
+}
+
